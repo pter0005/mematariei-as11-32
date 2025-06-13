@@ -152,8 +152,8 @@ export default function PromptGeneratorCustomPage() {
   };
 
   return (
-    <Suspense fallback={<div>Loading...</div>}>
-      <div className="min-h-screen flex flex-col bg-background text-foreground">
+ <div className="min-h-screen flex flex-col bg-background text-foreground">
+ <Suspense fallback={<div>Loading form...</div>}>
         <header className="sticky top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
           <div className="container flex h-16 max-w-screen-xl items-center justify-between px-4 sm:px-6 lg:px-8">
             <Link href="/dashboard" className="flex items-center space-x-2">
@@ -345,7 +345,7 @@ export default function PromptGeneratorCustomPage() {
           </ScrollArea>
         </main>
 
-        <Footer className="py-8 border-t border-border/50 mt-auto text-center text-muted-foreground text-sm" />
+ <Footer className="py-8 border-t border-border/50 mt-auto text-center text-muted-foreground text-sm" />
       </div>
  </Suspense>
   );
