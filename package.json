@@ -1,4 +1,15 @@
-{
+[09:19:28.212] Running build in Washington, D.C., USA (East) – iad1
+[09:19:28.212] Build machine configuration: 2 cores, 8 GB
+[09:19:28.224] Cloning github.com/pter0005/mematariei-as11-32 (Branch: master, Commit: a7d6902)
+[09:19:28.380] Previous build caches not available
+[09:19:28.464] Cloning completed: 240.000ms
+[09:19:28.786] Running "vercel build"
+[09:19:29.191] Vercel CLI 42.2.0
+[09:19:29.296] Error: Can't parse json file /vercel/path0/package.json: Expected double-quoted property name in JSON at position 145 while parsing '{
+[09:19:29.297]   "name": "vouficarlouco",
+[09:19:29.297]   "version"'
+[09:19:29.592] 
+[09:19:32.016] Exiting build container{
   "name": "vouficarlouco",
   "version": "1.0.0",
   "scripts": {
